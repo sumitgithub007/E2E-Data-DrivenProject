@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Excel_demo.excel_demo&apos; to &apos;excel_depth_code&apos;&#x0D;&#x0A;- Original project: &apos;HybridFrameworkBySumit&apos;&#x0D;&#x0A;- Original element: &apos;Excel_demo.excel_demo&apos;&#x0D;&#x0A;- Renamed element: &apos;Excel_demo.excel_depth_code&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;excel_demo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/test=/true=/=/optional=/true=/=/maven.pomderived=/true=/&lt;Excel_demo{excel_demo.java[excel_demo" matchStrategy="1" name="excel_depth_code" qualified="false" references="true" similarDeclarations="false" stamp="1608634180078" textual="false" version="1.0"/>
+</session>

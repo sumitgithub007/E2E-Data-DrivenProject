@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 61.634 sec <<< FAILURE! - in TestSuite
+LoginAsBankManager(testcases.BankManagerLoginnTest)  Time elapsed: 4.939 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at testcases.BankManagerLoginnTest.LoginAsBankManager(BankManagerLoginnTest.java:35)
+

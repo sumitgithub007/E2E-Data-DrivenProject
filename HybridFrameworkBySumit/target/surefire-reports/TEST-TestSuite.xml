@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="14.216" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="JOB_NAME" value="HybridProjectSumit"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/HybridProjectSumit/12/display/redirect?page=tests"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\sumit goyal\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="86c9c93c4159343d"/>
+    <property name="POM_ARTIFACTID" value="DataDrivenFramework"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="DataDrivenFramework"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\SUMITG~1\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.9+7-LTS"/>
+    <property name="user.name" value="sumit goyal"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="HybridProjectSumit"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/HybridProjectSumit/12/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
+    <property name="OneDrive" value="C:\Users\sumit goyal\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9\bin"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="LOCALAPPDATA" value="C:\Users\sumit goyal\AppData\Local"/>
+    <property name="java.version" value="11.0.9"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="sumit goyal"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BUILD_ID" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="DokanLibrary1" value="C:\Program Files\Dokan\Dokan Library-1.4.0\"/>
+    <property name="os.version" value="10.0"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/HybridProjectSumit/12/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\SUMITG~1\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/HybridProjectSumit/12/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.9+7-LTS"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/HybridProjectSumit/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-R32VSJE"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\sumit goyal"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="DESKTOP-R32VSJE"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="com.w2a"/>
+    <property name="user.home" value="C:\Users\sumit goyal"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-HybridProjectSumit-12"/>
+    <property name="JENKINS_SERVER_COOKIE" value="86c9c93c4159343d"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\sumit goyal"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin;C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9/bin;C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9\bin;C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python\Scripts\;C:\Python\;C:\Users\sumit goyal\AppData\Local\Microsoft\WindowsApps;C:\Users\sumit goyal\AppData\Roaming\npm;."/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="DokanLibrary1_LibraryPath_x86" value="C:\Program Files\Dokan\Dokan Library-1.4.0\x86\lib\"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\sumit goyal\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
+    <property name="java.class.path" value="C:\Users\sumit goyal\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3 C:\Users\sumit goyal\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\sumit goyal\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\sumit goyal\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 57351"/>
+    <property name="Path" value="C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9\bin;C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python\Scripts\;C:\Python\;C:\Users\sumit goyal\AppData\Local\Microsoft\WindowsApps;C:\Users\sumit goyal\AppData\Roaming\npm"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="C:\Users\sumit goyal\Downloads\jdk-11.0.9_windows-x64_bin\jdk-11.0.9/bin"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="FREI0R_PATH" value="C:\PROGRA~2\APOWER~1\VIDEOC~1\frei0r;C:\Program Files (x86)\Apowersoft\Video Converter Studio\frei0r"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="java.io.tmpdir" value="C:\Users\SUMITG~1\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\sumit goyal\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/HybridProjectSumit/12/"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="E:\E2EDataDrivenFramework\HybridFrameworkBySumit"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/HybridProjectSumit/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-R32VSJE"/>
+    <property name="USERDOMAIN" value="DESKTOP-R32VSJE"/>
+    <property name="MAVEN_HOME" value="C:\Users\sumit goyal\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="12"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Users\sumit goyal\Downloads"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\sumit goyal\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\sumit goyal\.jenkins\workspace\HybridProjectSumit@tmp"/>
+    <property name="UIPATH_USER_SERVICE_PATH" value="C:\Users\sumit goyal\AppData\Local\UiPath\app-20.10.0-beta1145\UiPath.Service.UserHost.exe"/>
+    <property name="WORKSPACE" value="C:\Users\sumit goyal\.jenkins\workspace\HybridProjectSumit"/>
+    <property name="maven3.interceptor.common" value="C:\Users\sumit goyal\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="DokanLibrary1_LibraryPath_x64" value="C:\Program Files\Dokan\Dokan Library-1.4.0\lib\"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase name="LoginAsBankManager" classname="testcases.BankManagerLoginnTest" time="4.939">
+    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at testcases.BankManagerLoginnTest.LoginAsBankManager(BankManagerLoginnTest.java:35)
+</failure>
+    <system-out><![CDATA[h
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 48489
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 23, 2021 1:12:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addCustomerTest" classname="testcases.AddCustomerTest" time="8.425"/>
+  <testcase name="addCustomerTest" classname="testcases.AddCustomerTest" time="8.381"/>
+  <testcase name="addCustomerTest" classname="testcases.AddCustomerTest" time="8.127"/>
+  <testcase name="addCustomerTest" classname="testcases.AddCustomerTest" time="8.096"/>
+  <testcase name="openAccountTest" classname="testcases.OpenAccountTest" time="0.852"/>
+</testsuite>

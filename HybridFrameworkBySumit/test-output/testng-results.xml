@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-23T11:02:38 IST" name="Default suite" finished-at="2020-12-23T11:02:53 IST" duration-ms="15003">
+    <groups>
+    </groups>
+    <test started-at="2020-12-23T11:02:38 IST" name="Default test" finished-at="2020-12-23T11:02:53 IST" duration-ms="15003">
+      <class name="testcases.BankManagerLoginnTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testcases.BankManagerLoginnTest@65045a87]" started-at="2020-12-23T11:02:25 IST" name="Setup" finished-at="2020-12-23T11:02:38 IST" duration-ms="13342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginAsBankManager()[pri:0, instance:testcases.BankManagerLoginnTest@65045a87]" started-at="2020-12-23T11:02:38 IST" name="LoginAsBankManager" finished-at="2020-12-23T11:02:53 IST" duration-ms="14834" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because "basePackage.TestBase.test" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because "basePackage.TestBase.test" is null
+at basePackage.TestBase.Click(TestBase.java:133)
+at testcases.BankManagerLoginnTest.LoginAsBankManager(BankManagerLoginnTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAsBankManager -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BankManagerLoginnTest@65045a87]" started-at="2020-12-23T11:02:53 IST" name="tearDown" finished-at="2020-12-23T11:02:54 IST" duration-ms="829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.BankManagerLoginnTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

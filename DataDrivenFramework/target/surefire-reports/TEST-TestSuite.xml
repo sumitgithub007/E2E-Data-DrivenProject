@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="3.385" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Users\sumit goyal\Downloads\jdk-11.0.8_windows-x64_bin\jdk-11.0.8\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\E2EDataDrivenFramework\DataDrivenFramework"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\E2EDataDrivenFramework\DataDrivenFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SUMITG~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\E2EDataDrivenFramework\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6021395340701379924.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\sumit goyal\Downloads\jdk-11.0.8_windows-x64_bin\jdk-11.0.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/sumit goyal/Downloads/jdk-11.0.8_windows-x64_bin/jdk-11.0.8/bin/server;C:/Users/sumit goyal/Downloads/jdk-11.0.8_windows-x64_bin/jdk-11.0.8/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sumit goyal\Downloads\jdk-11.0.8_windows-x64_bin\jdk-11.0.8\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Python\Scripts\;C:\Python\;C:\Users\sumit goyal\AppData\Local\Microsoft\WindowsApps;C:\Users\sumit goyal\Downloads\eclipse-java-2020-09-R-win32-x86_64 (1)\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sumit goyal"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="sumit goyal"/>
+    <property name="java.class.path" value="C:\Users\sumit goyal\Downloads\eclipse-java-2020-09-R-win32-x86_64 (1)\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Users\sumit goyal\Downloads\jdk-11.0.8_windows-x64_bin\jdk-11.0.8"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\E2EDataDrivenFramework\DataDrivenFramework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="LoginAsBankManager" classname="com.w2a.testcases.BankManagerLoginnTest" time="0.527">
+    <failure message="Login failed" type="java.lang.AssertionError">java.lang.AssertionError: Login failed
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.w2a.testcases.BankManagerLoginnTest.LoginAsBankManager(BankManagerLoginnTest.java:25)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 35079
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1606212412.714][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+Nov 24, 2020 3:36:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="getData" classname="com.w2a.testcases.AddCustomerTest" time="2.858">
+    <failure message="Login failed" type="java.lang.AssertionError">java.lang.AssertionError: Login failed
+	at org.testng.Assert.fail(Assert.java:99)
+	at com.w2a.testcases.AddCustomerTest.getData(AddCustomerTest.java:45)
+</failure>
+    <system-out><![CDATA[DEBUG   16062   [freemark] (): Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+DEBUG   16062   [freemark] (): TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+DEBUG   16062   [freemark] (): TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+DEBUG   16062   [freemark] (): TemplateLoader.findTemplateSource("Extent.ftl"): Found
+DEBUG   16062   [freemark] (): Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/sumit%20goyal/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+]]></system-out>
+  </testcase>
+  <testcase name="getData" classname="com.w2a.testcases.AddCustomerTest" time="2.951">
+    <failure message="unexpected alert open: {Alert text : Customer added successfully with customer id :6}&#10;  (Session info: chrome=86.0.4240.198): Customer added successfully with customer id :6&#10;Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;&#10;System info: host: &apos;DESKTOP-R32VSJE&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\SUMITG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: cbb202d22b99400eb72dd2515993f9c1" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Customer added successfully with customer id :6}
+  (Session info: chrome=86.0.4240.198): Customer added successfully with customer id :6
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'DESKTOP-R32VSJE', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\SUMITG~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cbb202d22b99400eb72dd2515993f9c1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.w2a.utilities.TestUtil.CapTureScreenshot(TestUtil.java:26)
+	at com.w2a.listeners.CustomListeners.onTestFailure(CustomListeners.java:33)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:657)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:764)
+	at org.testng.TestRunner.run(TestRunner.java:585)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.runSuites(TestNG.java:1069)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</failure>
+  </testcase>
+</testsuite>
